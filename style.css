@@ -107,10 +107,10 @@ body h1{
 }
 
 
-.middel-part{
+.middel-part {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    margin: 0 220px 80px 220px;
+    margin: 0px 220px 80px 220px;
 
     
 }
@@ -122,8 +122,8 @@ body h1{
 }
 
 .all-image{
-    width: 550px;
-    height: 300px;
+    width: 700px;
+    height: 250px;
     max-width: 100%;
 }
 
@@ -145,14 +145,76 @@ body h1{
 
 .slider-part{
     background-color: rgb(103, 123, 140);
-    height: 600px;
-    width: 100%;
-    
-    
+    height: 500px;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
     
 
 }
 
+.join-circle2,
+.about-prog2
+
+{
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.about-prog2{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.slider-image{
+    height: 220px;
+    width: 400px;
+}
+
+.middel-icon-part {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 450px;
+   
+   
+    
+    
+}
+
+
+.middel-photo2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    text-align: center;
+    
+    
+}
+
+.box-logo {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(228, 228, 228);
+}
+
+
+
+
+.all-icons{
+    max-height: 60%;
+    max-width: 60%;
+    margin-top: 20px;
+ 
+}
+
+
+.box-logo:hover{
+    background-color: rgb(103, 123, 140);
+   
+}
 
 
 
